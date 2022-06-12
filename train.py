@@ -36,7 +36,7 @@ import sys
 
 
 # Path to data folder with provided material
-data_path = 'data/'
+data_path = '2022DSC/data/'
 
 if not os.path.exists(data_path+'training_data/'):
     os.mkdir(data_path+'training_data/')
