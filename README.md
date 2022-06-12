@@ -21,7 +21,7 @@ conda activate <env_name>
 train.py is the source code for training the SDM model. **MLflow** is also used for managing the trained models.
 
 ```
-python DSC2022/train.py <n_iter> <cv>
+python 2022DSC/train.py <n_iter> <cv>
 ```
 
 1. **n_iter (Default - 10)** : Number of parameters settings that are sample in randomized search cross validation
